@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    
+    background-color: rgb(197, 215, 238);
+    width: 230px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 120vh;
+}
+.sidebar nav{
+    padding: 40px;
+    margin-top: 10vw;
+}
+.sidebar nav li{
+    
+    list-style: none;
+    font-size: 18px;
+    padding: 15px;
+}
+.sidebar nav li a{
+   display: block;
+   text-decoration: none;
+   color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(200, 14, 129); */
+    height: 50vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 20px;
+}
+.moreabout{
+    font-size: 12px;
+    margin-top: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn {
+    padding: 6px;
+    margin: 4px 6px;
+    border-radius: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold; 
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm {
+    font-size: 10px;
+    margin: 0 0 0 13px;
+}
+.btn:hover {
+    color: rgb(126, 190, 253);
+    background-color: white;
+}
+.devPic{
+    height: 50vh;
+    
+}
+
+.contactForm{
+    /* padding: 0 24px; */
+    padding: 120px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+}
+
+.contactForm form div{
+    padding: 13px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 25vw;
+    border-radius: 6px;
+    margin: 2px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 9px;
+    color: midnightblue;
+    margin: 0 7px;
+}
+#clientEnquiry{
+    height: 100px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer{
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 35px;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 14px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 14px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 800;
+}
+.skill{
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+}
+.hundred{
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 180px;
+    background-color: yellow;
+}
+
+.t5{
+    width: 150px;
+    background-color: aqua;
+}
+
+/* @media (max-width: 1750px) {
+    *{
+        background-color: red;
+    }
+    
+  } */
+  
